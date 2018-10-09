@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TitleScreen
+comment0.text=\r\n\ An\ actor\ class\ that\ can\ display\ a\ scoreboard,\ using\ Greenfoot's\r\n\ UserInfo\ class.\ \ \r\n\ \r\n\ You\ typically\ use\ this\ by\ including\ some\ code\ into\ the\ world\ for\ when\ your\ game\ ends\:\r\n\ \r\n\ <pre>\r\n\ \ \ addObject(new\ ScoreBoard(800,\ 600),\ getWidth()\ /\ 2,\ getHeight()\ /\ 2);\ \r\n\ </pre>\r\n\ \r\n\ Where\ 800\ by\ 600\ should\ be\ replaced\ by\ the\ desired\ size\ of\ the\ score\ board.\ \r\n\ \r\n\ @author\ Neil\ Brown\ \r\n\ @version\ 1.0\r\n
+comment1.params=status
+comment1.target=TitleScreen(java.lang.String)
+comment2.params=title
+comment2.target=void\ makeImage(java.lang.String)
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=java.lang.String\ startTitle()
+numComments=5
