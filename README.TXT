@@ -4,9 +4,9 @@ Tell the reader (someone who does not know anything about this project)
 all he/she needs to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
+PROJECT TITLE: Moving Mouth	
+PURPOSE OF PROJECT:Fun
+VERSION or DATE:2018
+HOW TO START THIS PROJECT:Move with the keyboard arrows
+AUTHORS:Grigorios ladas
 USER INSTRUCTIONS:

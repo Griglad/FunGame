@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class Eatenapple here.
  * 
- * @author (your name) 
+ * @author (Grigorios ladas) 
  * @version (a version number or a date)
  */
 public class RottenApple extends Actor

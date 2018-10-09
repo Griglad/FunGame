@@ -83,9 +83,11 @@ public class TitleScreen extends Actor
     
      public String startTitle()
     {
-        String title = "ΚΑΛΩΣΗΡΘATE ΣΤΟ ΠΑΙΧΝΙΔΙ MOVING MOUTH." + "\n" + "ΣΚΟΠΟΣ ΤΟΥ ΠΑΙΧΝΙΔΙΟΥ ΕΙΝΑΙ ΝΑ ΜΑΖΕΨΕTE" + "\n" + " ΜΕΣΑ ΑΠΟ ΤΟ ΔΑΣΟΣ ΟΣΑ ΠΕΡΙΣΣΟΤΕΡΑ" + "\n" + "ΦΡΟΥΤΑ ΜΠΟΡΕΙTE. ΠΙΟ ΣΥΓΚΕΚΡΙΜΕΝΑ ΜΗΛΑ" + "\n" + "ΚΑΙ ΜΠΑΝΑΝΕΣ ΜΑΖΕΥΟΝΤΑΣ ΟΣΟΥΣ" + "\n" + "ΠΕΡΙΣΣΟΤΕΡΟΥΣ ΠΟΝΤΟΥΣ ΜΠΟΡΕΙΤΕ ΠΡΙΝ" + "\n" + " ΤΕΛΕΙΩΣΕΙ Ο ΧΡΟΝΟΣ."  + "ΜΕΤΑΚΙΝΗΘΕΙΤΕ ME" + "\n" + "ΤΑ ΒΕΛΑΚΙΑ ΠΑΝΩ ΚΑΤΩ ΑΡΙΣΤΕΡΑ ΔΕΞΙΑ" + "\n" +  "\n"  +"ΠΑΤΗΣΤΕ ENTER ΓΙΑ ΝΑ ΞΕΚΙΝHΣΕΤΕ";
+        String title = "WELCOME TO THE GAME : MOVING MOUTH." + "\n" + "THE PURPOSE OF THE GAME IS TO COLLECT" + "\n" + " INSIDE THE WOODS FRUITS.SPECIFICALLY" + "\n" + "APPLES AND BANNANAS." + "\n" + "COLLECT AS MUCH POINS AS YOU CAN\nBY EATING THE FRUITS AND AVOIDNG\nTHE ROTTEN ONES BEFORE THE TIME RUNS OUT" + "\n" + "MOVE WITH THE KEYBOARD ARROWS \nUP,DOWN,LEFT,RIGHT" + "\n" + "                PRESS ENTER TO START";
         return title;
     }
+    
+    
     
     
     

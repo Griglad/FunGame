@@ -35,7 +35,6 @@ public class Forest_world extends World
     
     
     
-    //Μεθοδος act που τρέχει οταν τρέχει και το παιχνίδι επιπλεον ελεγχω με μια boolean μεταβλητη πρωτα να εμφανιστει η titlescreen και εφοσον πατησω enter να τρεξει το παιχνιδι
     public void act()
     
     {
@@ -59,7 +58,7 @@ public class Forest_world extends World
     
     
     
-     //Μεθοδος δημιουργιας αντικεμενων πρωτου επιπεδου
+    
      public void createObjects()
      {
          
@@ -85,7 +84,7 @@ public class Forest_world extends World
         
     }   
        
-    //Αρχικοποίηση του σκορ του πρώτου επιπεδου αν θα χασω σε αυτο
+   
     public static void initializeScore()
     {
         score = 0;
@@ -99,7 +98,7 @@ public class Forest_world extends World
     
     
     
-    //Μέθοδος για αφαιρεση μιας ζωης οταν ερθω σε επαφη με ενα αντικειμενο τυπου σαπιου μηλου η σαπιας μπανανας και επιπλεον ελεγχος αν μηδενιστουν οι ζωες μου τοτε εμφανισε game over και μηδενισε το σκορ 
+
     public void loseLife()
     {
         --life;
@@ -111,15 +110,15 @@ public class Forest_world extends World
         Greenfoot.stop();}
     }
     
-    //Mεθοδος για εμφανιση του σκορ μεσω της showText της world
+    
     private void showScore()
     {
-        showText("SCORE: " + score, 75 ,30 );
+        showText("Score: " + score, 75 ,30 );
 
     
     }
     
-    //Μεθοδος εμφανισης του χρονου με τη μεθοδο showText της world 
+ 
     private void showTime()
     {
         
@@ -127,7 +126,7 @@ public class Forest_world extends World
         
     }
     
-    // Μεθοδος για εμφανιση ζωων μεσω της  ShowText της world για εμφανιση ζωων 
+    
     private void showLives()
     {
         showText("Life : " + life , 75, 90);
@@ -140,7 +139,6 @@ public class Forest_world extends World
     
     
     
-    //Μεθοδος για να παρω τις ζωες και να τις μεταφερω στον επομενο κοσμο
     public static int getLives()
     {
         return life;
@@ -150,7 +148,7 @@ public class Forest_world extends World
     
     
     
-    //Μεθοδος για αθροιση του σκορ
+    
       public void addScore(int points)
     {
         score = score + points;
@@ -166,7 +164,7 @@ public class Forest_world extends World
         
         
     }
-    //Μεθοδος για να παρω το σκορ και να το μεταφερω στον επομενο κοσμο
+  
     public static int getScore()
     {
         return score;
@@ -174,7 +172,7 @@ public class Forest_world extends World
     
     
     
-    //Μεθοδος που προετοιμαζει τον κοσμο οριζοντας ως βασικο actor ενα νεο αντικείμενο της κλάσης mouth 
+     
     private void prepare()
     {
 
@@ -193,7 +191,7 @@ public class Forest_world extends World
     
     
     
-    // Μεθοδος για να μετραει ο χρονος αρνητικα και οσο αυτος μετραει να εκτελειται η μεθοδος showTime για να μου δειχνει το χρονο
+    
     public void countTime()
     {
         

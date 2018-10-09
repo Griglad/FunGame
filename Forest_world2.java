@@ -5,7 +5,7 @@ greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class White_world2 here.
  * 
- * @author (your name) 
+ * @author (Grigorios ladas) 
  * @version (a version number or a date)
  */
 
@@ -27,8 +27,8 @@ public class Forest_world2 extends World
         super(850, 360, 1);
         prepare();
         this.time = 2000;
-        this.life = Forest_world.getLives(); // Μεταφορα ζωων του πρωτου επιπεδου
-        this.score = Forest_world.getScore(); // Μεταφορα του σκορ του πρωτου επιπεδου
+        this.life = Forest_world.getLives(); 
+        this.score = Forest_world.getScore(); 
         showTime();
         showScore();
         showLives();
@@ -39,7 +39,7 @@ public class Forest_world2 extends World
     
     
     
-   //Mεθοδος δημιουργιας αντικειμενων δευτερου επιπεδου
+
     public void createObjects2()
      {
          
@@ -163,7 +163,7 @@ public class Forest_world2 extends World
     
     
        
-   //Αρχικοποιηση του σκορ της τοπικης μεταβλητης του δευτερου κοσμου αλλα και του σκορ του πρωτου επιπεδου 
+  
   public void initializeScore()
   {
       score = 0;
