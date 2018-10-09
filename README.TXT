@@ -10,3 +10,4 @@ VERSION or DATE:2018
 HOW TO START THIS PROJECT:Move with the keyboard arrows
 AUTHORS:Grigorios ladas
 USER INSTRUCTIONS:
+Eat the fruits and avoid the rotten ones
